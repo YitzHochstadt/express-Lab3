@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+	font-family: 'Comic Neue', sans-serif;
+	color: black;
+	margin: 0 auto;
+	padding: .5em 1em;
+	max-width: 600px;
+	/* background: linear-gradient(#e66465, #9198e5); */
+	background: radial-gradient(red, blue);
+	height: 100vh;
+}
+	
+a:link, a:visited {
+	color: rgb(7, 5, 131);
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: none;
+	color: #e66465;
+	transition: color 0.2s;
+}
+
+label {
+	font-weight: bold;
+}
+
+.alert em {
+	color: crimson;
+	font-size: 115%;
+}
+
+.main-image {
+	width: 100%;
+	max-width: 150px;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: rgba(22, 56, 107, 0.801);
+}
+th, td {
+	border: none;
+	padding: 2px 1em;
+}
+tr:nth-child(odd) td {
+	background-color: rgba(17, 101, 185, 0.801);
+}

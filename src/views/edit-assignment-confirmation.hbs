@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Updated</title>
+	<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>Assignment Updated</h1>
+  <p>This assignment was updated.</p>
+  <p><label>Title: </label> {{assignment.title}}</p>
+  <p><label>Score: </label> {{assignment.score}}</p>
+  <p><label>Points Possible: </label> {{assignment.total}}</p>
+  <p><label>Completed: </label> {{#if assignment.completed}}Yes {{else}}No{{/if}}</p>
+  <p>
+    <a href="/assignments">See all assignments</a>
+  </p>
+</body>
+</html>
